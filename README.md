@@ -51,9 +51,10 @@ This project demonstrates key systems programming topics:
 
 ## Requirements
 
-- Linux/Unix system (uses POSIX APIs: signals, pthreads, epoll, FIFOs)
-- GCC compiler
-- pthread library
+- **Operating System:** Linux or Unix-like environment
+  - *Windows Users:* Requires **WSL (Windows Subsystem for Linux)** as the project relies on POSIX APIs (signals, pthreads, epoll, FIFOs) not available natively on Windows.
+- **Compiler:** GCC
+- **Libraries:** pthread
 
 ## Building
 
